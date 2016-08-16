@@ -1,0 +1,9 @@
+uuid: 8273b21b-4739-4a06-9fbb-64a79cccfd09
+langcode: en
+status: true
+dependencies: {  }
+name: Components
+vid: components
+description: ''
+hierarchy: 0
+weight: 0

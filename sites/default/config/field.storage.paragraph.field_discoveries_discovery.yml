@@ -1,0 +1,19 @@
+uuid: e4df7b95-d289-4d5c-b831-a1b3d330d26f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_discoveries_discovery
+field_name: field_discoveries_discovery
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

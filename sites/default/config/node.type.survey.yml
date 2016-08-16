@@ -1,0 +1,18 @@
+uuid: 5b486849-88e8-42fe-aa4a-8db88128d715
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Survey
+type: survey
+description: 'Survey CT that can list a number of questions'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

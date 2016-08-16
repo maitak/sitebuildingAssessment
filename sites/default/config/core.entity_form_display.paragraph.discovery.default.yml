@@ -1,0 +1,25 @@
+uuid: 9e84e963-c114-486b-9e45-676e1706dcbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.discovery.field_discoveries_discovery
+    - paragraphs.paragraphs_type.discovery
+  module:
+    - text
+id: paragraph.discovery.default
+targetEntityType: paragraph
+bundle: discovery
+mode: default
+content:
+  field_discoveries_discovery:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+hidden:
+  created: true
+  status: true
+  uid: true

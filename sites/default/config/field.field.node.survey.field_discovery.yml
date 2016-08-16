@@ -1,0 +1,63 @@
+uuid: 3ee2b0a7-0c7a-44cc-ae82-1ac7c2f738dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_discovery
+    - node.type.survey
+    - paragraphs.paragraphs_type.discovery
+  module:
+    - entity_reference_revisions
+id: node.survey.field_discovery
+field_name: field_discovery
+entity_type: node
+bundle: survey
+label: Discovery
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      discovery: discovery
+    target_bundles_drag_drop:
+      answer:
+        weight: 13
+        enabled: false
+      answer_is_no:
+        weight: 14
+        enabled: false
+      discovery:
+        enabled: true
+        weight: 15
+      images:
+        weight: 16
+        enabled: false
+      image_text:
+        weight: 17
+        enabled: false
+      nested_paragraph:
+        weight: 18
+        enabled: false
+      'no':
+        weight: 19
+        enabled: false
+      score_number:
+        weight: 20
+        enabled: false
+      text:
+        weight: 21
+        enabled: false
+      text_image:
+        weight: 22
+        enabled: false
+      user:
+        weight: 23
+        enabled: false
+      y_n:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

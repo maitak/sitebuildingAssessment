@@ -1,0 +1,26 @@
+uuid: 6af60d35-6877-430e-ab80-af38cb418a1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.survey.field_component
+    - field.field.node.survey.field_discovery
+    - field.field.node.survey.field_question
+    - field.field.node.survey.field_y_n
+    - node.type.survey
+  module:
+    - user
+id: node.survey.teaser
+targetEntityType: node
+bundle: survey
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_component: true
+  field_discovery: true
+  field_question: true
+  field_y_n: true
+  langcode: true

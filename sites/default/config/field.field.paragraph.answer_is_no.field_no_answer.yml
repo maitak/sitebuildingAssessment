@@ -1,0 +1,19 @@
+uuid: abebb922-4ed9-4d5c-8a31-23abdec998d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_no_answer
+    - paragraphs.paragraphs_type.answer_is_no
+id: paragraph.answer_is_no.field_no_answer
+field_name: field_no_answer
+entity_type: paragraph
+bundle: answer_is_no
+label: 'No'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

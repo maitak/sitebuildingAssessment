@@ -1,0 +1,29 @@
+uuid: 1a017e22-2d2c-45ac-a242-9e1b89adc8a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.no.field_discovery
+    - field.field.paragraph.no.field_the_no_fi
+    - paragraphs.paragraphs_type.no
+id: paragraph.no.default
+targetEntityType: paragraph
+bundle: 'no'
+mode: default
+content:
+  field_discovery:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_the_no_fi:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,19 @@
+uuid: a27d0800-8096-45fa-961d-bf4995cc857b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_discovery
+    - paragraphs.paragraphs_type.no
+id: paragraph.no.field_discovery
+field_name: field_discovery
+entity_type: paragraph
+bundle: 'no'
+label: Discovery
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

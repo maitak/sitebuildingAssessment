@@ -1,0 +1,23 @@
+uuid: d9d17288-7ba5-44c7-a709-338d7de070fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.answer_is_no.field_no_answer
+    - paragraphs.paragraphs_type.answer_is_no
+id: paragraph.answer_is_no.default
+targetEntityType: paragraph
+bundle: answer_is_no
+mode: default
+content:
+  field_no_answer:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,30 @@
+uuid: e3c3fc33-a743-41e2-9c72-b51d912cbf89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.answer.field_response
+    - field.field.paragraph.answer.field_score_
+    - paragraphs.paragraphs_type.answer
+id: paragraph.answer.default
+targetEntityType: paragraph
+bundle: answer
+mode: default
+content:
+  field_response:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_score_:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+hidden:
+  created: true
+  status: true
+  uid: true

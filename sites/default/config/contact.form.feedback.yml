@@ -1,0 +1,12 @@
+uuid: 3b8a2fa9-a04e-43fd-9c91-ca8c9dc1621d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - kambaramimaita@gmail.com
+reply: ''
+weight: 0

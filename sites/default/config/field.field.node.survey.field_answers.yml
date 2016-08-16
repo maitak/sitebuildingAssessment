@@ -1,0 +1,61 @@
+uuid: 518f3b58-8ed5-43a1-89cc-c1697fc957b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_answers
+    - node.type.survey
+  module:
+    - entity_reference_revisions
+id: node.survey.field_answers
+field_name: field_answers
+entity_type: node
+bundle: survey
+label: Answers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      answer:
+        weight: 13
+        enabled: false
+      answer_is_no:
+        weight: 14
+        enabled: false
+      discovery:
+        weight: 15
+        enabled: false
+      images:
+        weight: 16
+        enabled: false
+      image_text:
+        weight: 17
+        enabled: false
+      nested_paragraph:
+        weight: 18
+        enabled: false
+      'no':
+        weight: 19
+        enabled: false
+      score_number:
+        weight: 20
+        enabled: false
+      text:
+        weight: 21
+        enabled: false
+      text_image:
+        weight: 22
+        enabled: false
+      user:
+        weight: 23
+        enabled: false
+      y_n:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions
