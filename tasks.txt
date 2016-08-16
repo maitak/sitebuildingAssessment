@@ -1,0 +1,19 @@
+Whats left 
+For Development
+
+	1. Creating Views Conditionals 
+   		a. For wrong answers to display the Discoveries
+   		b. Displaying all the discoveries after the user has entered their emails ,
+   		   In that case might need to add an email field to the Survey CT so its used for the 
+    	   conditionals.
+
+
+For Frontend
+
+	1. Go to http://localhost:8888/sitebuildingAssessment/survey
+
+    	 To style the Survey page with the Questions
+    	 
+    1. Go to http://localhost:8888/sitebuildingAssessment/survey/[title]
+
+    	 To style the last Node of the Survey CT.  
