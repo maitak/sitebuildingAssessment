@@ -2,9 +2,17 @@
 
 For the Assessment Survey CT
 
+  ```
   How to create the Survey CT — creatingSurveyCT.txt
+  ```
+  
+  ```
   How to add Survey Question — addingSurveyContent.txt
+  ```  
+  
+  ```
   What is left — tasks.txt
+  ```
 
 ## Getting Started
 
