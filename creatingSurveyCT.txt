@@ -1,4 +1,4 @@
-
+Installing Modules
 
 	1. Install Beaker theme and set as Default
 	2. Install paragraphs 
@@ -18,12 +18,12 @@ First Step
 	1. Create Paragraph Type called Answers
 		a. Add field called Response set to Text (plain ) field type  
 		b. Add another field called Score Number set to Number (interger ) field type 
-	2. Set Display Settings 
+	2.Setting Display Settings 
         a. Hide from Display the Score Number
 		b. Visually Hide the Response Label
 	3. Create Paragragh Type called Discoveries
         a. Add field called Discovery set type to Text (formatted,long)
-	4. Set Display Settings 
+	4. Setting Display Settings 
 		a. Visually Hide the Discovery Label
  
 		
