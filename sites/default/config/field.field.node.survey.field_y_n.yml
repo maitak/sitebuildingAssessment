@@ -1,0 +1,33 @@
+uuid: bc318797-f08b-4ca4-bd4a-0862b386b8b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_y_n
+    - node.type.survey
+    - paragraphs.paragraphs_type.y_n
+  module:
+    - entity_reference_revisions
+id: node.survey.field_y_n
+field_name: field_y_n
+entity_type: node
+bundle: survey
+label: Y/N
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      y_n: y_n
+    target_bundles_drag_drop:
+      'no':
+        weight: 3
+        enabled: false
+      y_n:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

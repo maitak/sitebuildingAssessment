@@ -1,0 +1,29 @@
+uuid: 1973857e-8931-49c8-ad65-54d2773f4186
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.y_n.field_no
+    - field.field.paragraph.y_n.field_yes
+    - paragraphs.paragraphs_type.y_n
+id: paragraph.y_n.default
+targetEntityType: paragraph
+bundle: y_n
+mode: default
+content:
+  field_no:
+    weight: 1
+    settings:
+      display_label: false
+    third_party_settings: {  }
+    type: boolean_checkbox
+  field_yes:
+    weight: 0
+    settings:
+      display_label: false
+    third_party_settings: {  }
+    type: boolean_checkbox
+hidden:
+  created: true
+  status: true
+  uid: true

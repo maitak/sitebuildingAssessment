@@ -1,0 +1,22 @@
+uuid: a80b66c4-6e1a-449e-980d-858e5eab4da7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.answer_is_no.field_no_answer
+    - paragraphs.paragraphs_type.answer_is_no
+id: paragraph.answer_is_no.default
+targetEntityType: paragraph
+bundle: answer_is_no
+mode: default
+content:
+  field_no_answer:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  created: true
+  uid: true

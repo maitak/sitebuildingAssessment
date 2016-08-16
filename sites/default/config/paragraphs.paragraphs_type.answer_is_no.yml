@@ -1,0 +1,6 @@
+uuid: 43fb8d4a-a389-42cb-af6d-bd34cf83d80d
+langcode: en
+status: true
+dependencies: {  }
+id: answer_is_no
+label: 'Answer is No'

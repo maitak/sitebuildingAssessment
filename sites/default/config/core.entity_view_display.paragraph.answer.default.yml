@@ -1,0 +1,24 @@
+uuid: aaff2228-042c-4658-8af1-c8b7152dd656
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.answer.field_response
+    - field.field.paragraph.answer.field_score_
+    - paragraphs.paragraphs_type.answer
+id: paragraph.answer.default
+targetEntityType: paragraph
+bundle: answer
+mode: default
+content:
+  field_response:
+    weight: 2
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  created: true
+  field_score_: true
+  uid: true

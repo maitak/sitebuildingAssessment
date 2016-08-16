@@ -1,0 +1,14 @@
+uuid: f3276501-8230-436d-924e-121e2ab6ee9d
+name: 'Site Assessment'
+mail: kambaramimaita@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /survey
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,0 +1,23 @@
+uuid: 28ea7750-0839-4328-bb9e-cf75f0493f7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_score_
+    - paragraphs.paragraphs_type.answer
+id: paragraph.answer.field_score_
+field_name: field_score_
+entity_type: paragraph
+bundle: answer
+label: 'Score Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

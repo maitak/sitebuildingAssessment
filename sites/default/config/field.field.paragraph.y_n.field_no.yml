@@ -1,0 +1,23 @@
+uuid: 6c912380-0891-4758-bdec-46a091ffc431
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_no
+    - paragraphs.paragraphs_type.y_n
+id: paragraph.y_n.field_no
+field_name: field_no
+entity_type: paragraph
+bundle: y_n
+label: 'No'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'No'
+  off_label: 'Yes'
+field_type: boolean

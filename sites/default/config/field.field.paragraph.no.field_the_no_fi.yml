@@ -1,0 +1,21 @@
+uuid: 026d050e-9940-4dc0-93fc-30804bfdbff3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_the_no_fi
+    - paragraphs.paragraphs_type.no
+id: paragraph.no.field_the_no_fi
+field_name: field_the_no_fi
+entity_type: paragraph
+bundle: 'no'
+label: 'The No Field'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'No'
+default_value_callback: ''
+settings: {  }
+field_type: string

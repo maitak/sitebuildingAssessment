@@ -1,0 +1,28 @@
+uuid: 378363f0-d76d-43da-9a7a-aba5b26436be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.images.field_images_demo
+    - image.style.medium
+    - paragraphs.paragraphs_type.images
+  module:
+    - image
+_core:
+  default_config_hash: SrcUVnFWa_fwHjrESiGfJISl0JVktNYE7j3YSPRGybY
+id: paragraph.images.default
+targetEntityType: paragraph
+bundle: images
+mode: default
+content:
+  field_images_demo:
+    type: image
+    weight: 0
+    settings:
+      image_style: medium
+      image_link: file
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,34 @@
+uuid: 52eac57e-ea6d-4285-bbc5-0f5d17689b97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.y_n.field_no
+    - field.field.paragraph.y_n.field_yes
+    - paragraphs.paragraphs_type.y_n
+id: paragraph.y_n.default
+targetEntityType: paragraph
+bundle: y_n
+mode: default
+content:
+  field_no:
+    weight: 1
+    label: visually_hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_yes:
+    weight: 0
+    label: visually_hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+hidden:
+  created: true
+  uid: true
