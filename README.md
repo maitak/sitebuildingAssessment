@@ -1,6 +1,10 @@
-# Testing
+# SiteBuilding Assessment
 
-One Paragraph of project description goes here
+For the Assessment Survey CT
+
+  How to create the Survey CT — creatingSurveyCT.txt
+  How to add Survey Question — addingSurveyContent.txt
+  What is left — tasks.txt
 
 ## Getting Started
 
@@ -72,7 +76,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [Maita](https://github.com/maitak)
+[Maita](https://github.com/maitak)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
